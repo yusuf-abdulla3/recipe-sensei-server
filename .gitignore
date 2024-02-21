@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# Database files
+*.sqlite3
+*.db
+db.sqlite3
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/
+
+# Migration files
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Local settings
+settings_local.py
+
+# Dependency files
+requirements.txt
+Pipfile.lock
+poetry.lock
+manage.py
