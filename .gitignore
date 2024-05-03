@@ -4,7 +4,16 @@ venv/
 # Database files
 *.sqlite3
 *.db
-db.sqlite3
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.pyc
+.DS_Store
+
+# Static and media files
+staticfiles/
+media/
 
 # Logs and temporary files
 *.log
@@ -22,4 +31,3 @@ settings_local.py
 requirements.txt
 Pipfile.lock
 poetry.lock
-manage.py
